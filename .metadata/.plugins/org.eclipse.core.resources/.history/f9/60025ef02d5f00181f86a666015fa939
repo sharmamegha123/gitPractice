@@ -1,0 +1,15 @@
+package javaPractice;
+import java.util.*; 
+
+
+public class ArrayList {
+
+	
+	public static void main(Stringargs[]) {
+		ArrayList<String> ar=new ArrayList<String>();// TODO Auto-generated method stub
+
+		
+		
+	}
+
+}

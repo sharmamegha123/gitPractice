@@ -1,0 +1,13 @@
+package javaPractice;
+
+public class ArrayList {
+
+	ArrayList<int> ar=new ArrayList<int>();
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+	}
+
+}

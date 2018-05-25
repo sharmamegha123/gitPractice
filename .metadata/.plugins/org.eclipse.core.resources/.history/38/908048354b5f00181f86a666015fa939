@@ -1,0 +1,43 @@
+package javaPractice;
+import java.util.*; 
+
+
+public class ArrayList1 {
+
+
+	public static void main(String args[]) {
+		
+		/*//Example 1
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("first");
+		list.add("second");
+		list.add("third");
+
+
+		Iterator<String> itr=list.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println("testing: "+itr.next());     
+		}
+
+		for(String obj:list)
+		{
+			System.out.println("testing: "+obj);     
+		}*/
+
+		userdefinedArrayList user1=new userdefinedArrayList(1,"user1");
+		
+		userdefinedArrayList user2=new userdefinedArrayList(2,"user2");
+		
+		ArrayList<userdefinedArrayList> list=new ArrayList<userdefinedArrayList>();
+		
+		list.add(user1);
+		list.add(user2))
+		
+		
+		
+		
+		
+		
+	}
+}
