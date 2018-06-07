@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite configfailurepolicy="continue" name="TestingReport">
+
+	
+	<listeners>
+		<listener class-name="javaPractice.testListener" />
+	</listeners>
+
+	<test name="Testing">
+
+		<classes>
+		<class name="javaPractice.testClass" />
+		
+		</classes>
+
+	</test>
+</suite>
